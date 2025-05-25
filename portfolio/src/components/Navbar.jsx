@@ -22,7 +22,7 @@ const Navbar = () => {
         <h2 className="text-[1.2rem] tracking-wide">Orlando's Portfolio</h2>
         <ul className='flex gap-6 text-[1rem]'>
           {navItems.map(({ name, to }, i) => (
-            <li key={i} className='relative group transition-all hover:text-cyan-300 hover:cursor-pointer hover:scale-105 active:scale-95'>
+            <li key={i} className='relative group transition-all hover:text-accent hover:cursor-pointer hover:scale-105 active:scale-95'>
               <Link
                 to={to}
                 smooth={true}
@@ -32,7 +32,7 @@ const Navbar = () => {
               >
                 {name}
               </Link>
-              <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-cyan-300 transition-all group-hover:w-full"></span>
+              <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-accent transition-all group-hover:w-full"></span>
             </li>
           ))}
         </ul>

@@ -34,11 +34,11 @@ export const CardShowcase = () => {
     <div className='card-grid'>
       {cards.map((card, index) => (
         <div key={index} className='card'>
-          <div className='card-icon'>
+          <div className='card-icon text-secondary text-[1.5rem]'>
             {card.icon}
           </div>
          
-          <h3 className='text-xl font-semibold mb-2 text-black '>{card.title}</h3>
+          <h3 className='text-xl font-semibold mb-2 text-accent '>{card.title}</h3>
           <p className='text-gray-700 text-sm'>{card.desc}</p>
         </div>
       ))}

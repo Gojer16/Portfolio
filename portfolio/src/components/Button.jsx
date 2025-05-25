@@ -10,16 +10,16 @@ const Button = ({
   className = "",
   ...props
 }) => {
-  const baseStyles = "px-6 py-3 rounded-xl font-semibold text-lg transition-all duration-300 ease-in-out shadow-md hover:shadow-lg";
+  const baseStyles = "hover:text-primary px-6 py-3 rounded-xl font-semibold text-lg transition-all duration-300 ease-in-out shadow-md hover:shadow-lg";
 
   const variants = {
     primary: clsx(
       baseStyles,
-      "hover:scale-105 active:scale-95 hover:opacity-90"
+      "hover:scale-105 active:scale-95 hover:text-primary"
     ),
     secondary: clsx(
       baseStyles,
-      "border border-white text-white hover:bg-[#c8a2c8] hover:text-white backdrop-blur-md"
+      "border border-white text-white hover:bg-[#e6e6fa] hover:text-accent backdrop-blur-md"
     ),
   };
 

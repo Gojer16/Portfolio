@@ -1,45 +1,61 @@
 import React from 'react'
 import { BsEnvelopeHeart } from "react-icons/bs";
-
+import { GrMapLocation } from "react-icons/gr";
+import { TbWorldHeart } from "react-icons/tb";
+import { BsInstagram } from "react-icons/bs";
+import { GrGithub } from "react-icons/gr";
+import { FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <div>
-        <div className='h-[100hv] py-24 translate-y-4 transition-all duration-500'>
+        <div className=' py-24 translate-y-4 transition-all duration-500'>
             <div className="container mx-auto px-4 ">
-                <h2 className="text-4xl font-bold text-center mb-4">Get In Touch</h2>
-                <p className="text-xl text-gray-300 text-center mb-16">Let's work or collaborate!</p>
+                <h2 className="text-4xl font-bold text-primary text-center mb-4">Get In Touch</h2>
+                <p className="text-xl   text-primary text-center mb-16">Let's work or collaborate!</p>
 
                 <div className="grid grid-cols-3 gap-12">
                     <div className=" grid grid-cols-1 gap-6">
                         <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                             <div className="w-12 h-12 bg-pink-300/10 rounded-full flex justify-center items-center mx-auto mb-4">
-                                <BsEnvelopeHeart className='text-3xl text-red-400'/>
+                                <BsEnvelopeHeart className='text-3xl text-primary'/>
 
                             </div>
-                            <h3 className="text-xl font-bold mb-2">Email</h3>
-                            <p className="text-gray-300">example@gmail.com</p>
+                            <h3 className="text-xl text-primary font-bold mb-2">Email</h3>
+                            <p className="text-primary">operation927@gmail.com</p>
 
                             
                         </div>
 
                         <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                             <div className="w-12 h-12 bg-pink-300/10 rounded-full flex justify-center items-center mx-auto mb-4">
-                                <BsEnvelopeHeart className='text-3xl text-red-400'/>
+                                <GrMapLocation className='text-3xl text-primary'/>
 
                             </div>
-                            <h3 className="text-xl font-bold mb-2">Email</h3>
-                            <p className="text-gray-300">example@gmail.com</p>
+                            <h3 className="text-xl font-bold text-primary  mb-2">Location</h3>
+                            <p className="text-primary">Venezuela</p>
 
                             
                         </div>
                         <div className="bg-white p-6 rounded-lg shadow-lg text-center">
                             <div className="w-12 h-12 bg-pink-300/10 rounded-full flex justify-center items-center mx-auto mb-4">
-                                <BsEnvelopeHeart className='text-3xl text-red-400'/>
+                                <TbWorldHeart className='text-3xl text-primary'/>
 
                             </div>
-                            <h3 className="text-xl font-bold mb-2">Email</h3>
-                            <p className="text-gray-300">example@gmail.com</p>
+                            <h3 className="text-xl text-primary font-bold mb-2">Social</h3>
+                            <p className="text-primary flex justify-center gap-4 mt-4 text-[22px]">
+                                    <a href="#" className=' hover:text-accent transition-colors'>
+                                        <GrGithub />
+                                    </a>
+                                    
+                                    <a href="#" className=' hover:text-accent transition-colors'>
+                                        <FaLinkedin />
+                                    </a>
+
+                                    <a href="#" className=' hover:text-accent transition-colors'>
+                                        <BsInstagram />
+                                    </a>
+                            </p>
 
                             
                         </div>

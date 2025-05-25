@@ -3,10 +3,10 @@ import { skills } from './skillsData';
 
 const Skill = () => {
   return (
-    <div className='h-full py-24 bg-gray-100'>
+    <div className='py-24 '>
       <div className='container mx-auto px-4'>
-        <h2 className='text-4xl font-bold text-center mb-4'>My Skills</h2>
-        <p className='text-xl text-gray-600 text-center mb-16'>Tech I love and build with</p>
+        <h2 className='text-4xl font-bold text-center text-secondary mb-4'>My Skills</h2>
+        <p className='text-xl text-secondary text-center mb-16'>Tech I love and build with</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skills.map((skill, idx) => (
@@ -21,7 +21,7 @@ const Skill = () => {
               <div className="w-full h-2 bg-gray-300 rounded-full overflow-hidden">
                 <div
                   style={{ width: `${skill.level}%` }}
-                  className="h-full bg-gradient-to-r from-green-400 to-blue-500 rounded-full transition-all duration-500"
+                  className="h-full bg-gradient-to-r from-[#8a2be2] to-[#c8a2c8] rounded-full transition-all duration-500"
                 ></div>
               </div>
             </div>

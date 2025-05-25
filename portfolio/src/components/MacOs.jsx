@@ -3,15 +3,15 @@ import { useTypewriter } from './useTypewriter';
 
 const terminalLines = [
   '> whoami',
-  'Orlando_dev',
+  'orlando_ascanio',
   '> passion',
-  '"Building clean, scalable, and thoughtful apps."',
+  '"Designing robust systems and clean APIs that scale."',
   '> mission',
-  '"Empower users through innovation, simplicity, and impact."',
+  '"Build efficient, secure, and scalable solutions that matter."',
   '> stack',
-  'JavaScript | React | Node | Next.js | AI/ML | Firebase | Tailwind',
+  'JavaScript | Express | Python | FastAPI | React.js | MySQL | MongoDB | Redis | Docker | Tailwind',
   '> values',
-  'Honesty, Curiosity, Collaboration, Growth',
+  'Simplicity. Reliability. Curiosity. Impact. Growth.',
 ];
 
 const MacOs = () => {

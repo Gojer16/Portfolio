@@ -4,10 +4,10 @@ import { projects } from "./projects.js";
 
 export const Project = () => {
   return (
-    <div className="h-screen py-24 translate-y-4 transition-all duration-500">
+    <div className="py-24 translate-y-4 transition-all duration-500">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-4">Featured Projects</h2>
-        <p className="text-xl text-center mb-16 text-gray-300">Check out some of my recent work</p>
+        <h2 className="text-4xl font-bold text-center text-secondary mb-4">Featured Projects</h2>
+        <p className="text-xl text-center mb-16 text-secondary">Check out some of my recent work</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
@@ -34,7 +34,7 @@ export const Project = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 flex items-center gap-2 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-all duration-300"
+                    className="px-4 flex items-center gap-2 py-2 bg-primary text-white rounded-lg hover:bg-[#892be2a9] transition-all duration-300"
                   >
                     <GrGithub className="text-xl" /> Github
                   </a>
