@@ -46,7 +46,6 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* Theme Toggle */}
         <div className="flex items-center gap-4">
           <button onClick={toggleTheme} className='text-[1.5rem] transition-all duration-300 transform hover:scale-110 hover:rotate-360 cursor-pointer ease-in-out hover:text-yellow-300 focus:outline-none focus:ring-2 focus:ring-accent/50 rounded'>
             {theme === 'dark' ? <HiSun /> : <HiMoon />}
