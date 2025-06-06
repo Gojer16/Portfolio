@@ -1,9 +1,16 @@
 import React from 'react';
 import { skills } from './skillsData';
+import { motion } from 'framer-motion';
 
 const Skill = () => {
   return (
     <div className='py-24 '>
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+        viewport={{ once: true }}
+      >
       <div className='container mx-auto px-4'>
         <h2 className='text-4xl font-bold text-center text-secondary mb-4'>My Skills</h2>
         <p className='text-xl text-secondary text-center mb-16'>Tech I love and build with</p>
@@ -28,6 +35,7 @@ const Skill = () => {
           ))}
         </div>
       </div>
+      </motion.div>
     </div>
   );
 };
