@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 z-50">
       <div className='flex justify-between px-6 py-4 bg-[rgba(255,255,255,0.05)] backdrop-blur-md rounded-b-xl shadow-sm text-white font-semibold'>
-        <h2 className="text-[1.2rem] tracking-wide">Orlando's Portfolio</h2>
+        <a href='/' className="text-[1.2rem] tracking-wide">Orlando's Portfolio</a>
         <ul className='flex gap-6 text-[1rem]'>
           {navItems.map(({ name, to }, i) => (
             <li key={i} className='relative group transition-all hover:text-accent hover:cursor-pointer hover:scale-105 active:scale-95'>

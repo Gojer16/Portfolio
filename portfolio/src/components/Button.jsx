@@ -15,11 +15,11 @@ const Button = ({
   const variants = {
     primary: clsx(
       baseStyles,
-      "hover:scale-105 active:scale-95 hover:text-primary"
+      "hover:scale-105 active:scale-95 cursor-pointer hover:text-primary"
     ),
     secondary: clsx(
       baseStyles,
-      "border border-white text-white hover:bg-[#e6e6fa] hover:text-accent backdrop-blur-md"
+      "border border-white text-white cursor-pointer hover:bg-[#e6e6fa] hover:text-accent backdrop-blur-md"
     ),
   };
 

@@ -27,12 +27,24 @@ const Hero = () => {
 
           </div>
 
+            <motion.div
+              initial={{ opacity: 0, y: 60 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2}}
+
+              >
             <div className='flex justify-center text-center px-80'>
               <p className='text-[1.5rem] font-light text-white mt-6 max-w-3xl mx-auto'>
                 I design and build robust, scalable applications that solve real problems — blending <span className="text-yellow-300 font-medium">innovation</span>, <span className="text-emerald-300 font-medium">clarity</span>, and <span className="text-cyan-400 font-medium">collaboration</span> to move ideas forward and create lasting impact.
               </p>
             </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 70 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2}}
 
+              >
             <div className='flex justify-center gap-4 mt-10 flex-wrap'>
                 <Button 
                 color='#50c878'
@@ -53,7 +65,9 @@ const Hero = () => {
             <div className='flex py-16 justify-center'> 
               <MacOs />
             </div>
+            </motion.div>
         </div>
+        
     </>
   )
 }
