@@ -15,7 +15,9 @@ function App() {
   return (
     <>
     <Layout >
+      <div id="hero">
       <Hero />
+      </div>
       <div id='showcase'>
         <Showcase />
       </div>

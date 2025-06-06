@@ -3,13 +3,13 @@ import { useTypewriter } from './useTypewriter';
 
 const terminalLines = [
   '> whoami',
-  'orlando_ascanio',
+  'Orlando_Ascanio',
   '> passion',
   '"Designing robust systems and clean APIs that scale."',
   '> mission',
   '"Build efficient, secure, and scalable solutions that matter."',
   '> stack',
-  'JavaScript | Express | Python | FastAPI | React.js | MySQL | MongoDB | Redis | Docker | Tailwind',
+  'JavaScript | Express | Python | FastAPI | React.js | MySQL | MongoDB | Redis | Docker ',
   '> values',
   'Simplicity. Reliability. Curiosity. Impact. Growth.',
 ];
