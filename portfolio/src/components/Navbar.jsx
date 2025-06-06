@@ -20,6 +20,11 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-50" role="navigation" aria-label="Main navigation">
+      <motion.ul
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+        >
       <div className='flex justify-between items-center px-6 py-4 bg-[rgba(255,255,255,0.05)] backdrop-blur-md rounded-b-xl shadow-sm text-white font-semibold'>
         <Link to="hero" smooth={true} duration={500} offset={-70} className="cursor-pointer text-[1.2rem] tracking-wide">
           Orlando's Portfolio
@@ -89,6 +94,7 @@ const Navbar = () => {
           </motion.ul>
         )}
       </AnimatePresence>
+      </motion.ul>
     </nav>
   )
 }
