@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import { HiMoon, HiSun } from "react-icons/hi2"
-import { useTheme } from './useTheme' // adjust path based on your structure
+import { useTheme } from './useTheme'
+import { motion } from 'framer-motion';
+
 
 
 const navItems = [
@@ -17,18 +19,28 @@ const Navbar = () => {
 
 
   return (
-    <div className="sticky top-0 z-50">
+    <nav className="sticky top-0 z-50"  role="navigation" aria-label="Main navigation">
+      <motion.ul
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+        >
       <div className='flex justify-between px-6 py-4 bg-[rgba(255,255,255,0.05)] backdrop-blur-md rounded-b-xl shadow-sm text-white font-semibold'>
-        <a href='/' className="text-[1.2rem] tracking-wide">Orlando's Portfolio</a>
-        <ul className='flex gap-6 text-[1rem]'>
+        <Link to="hero" smooth={true} duration={500} offset={-70} className="cursor-pointer text-[1.2rem] tracking-wide">
+          Orlando's Portfolio
+        </Link>
+        <ul className='flex gap-6 text-[1rem]'  role="menubar">
           {navItems.map(({ name, to }, i) => (
-            <li key={i} className='relative group transition-all hover:text-accent hover:cursor-pointer hover:scale-105 active:scale-95'>
+            <li key={i} role="none" className='relative group transition-all hover:text-accent hover:cursor-pointer hover:scale-105 active:scale-95'>
               <Link
+              role="menuitem"
+              aria-label={`Go to ${name}`}
                 to={to}
                 smooth={true}
                 duration={500}
                 offset={-70}
                 spy={true}
+                activeClass="text-accent"
               >
                 {name}
               </Link>
@@ -38,11 +50,12 @@ const Navbar = () => {
         </ul>
 
 
-       <button onClick={toggleTheme} className='text-[1.5rem] hover:text-yellow-300 transition-all duration-300 transform hover:rotate-12 cursor-pointer'>
+       <button onClick={toggleTheme} className='text-[1.5rem] transition-all duration-300 transform hover:scale-110 hover:rotate-72 ease-in-out hover:text-yellow-300 focus:outline-none focus:ring-2 cursor-pointer focus:ring-accent/50 rounded'>
           {theme === 'dark' ? <HiSun /> : <HiMoon />}
         </button>
       </div>
-    </div>
+      </motion.ul>
+    </nav>
   )
 }
 
