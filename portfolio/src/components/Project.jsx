@@ -41,7 +41,7 @@ export const Project = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 flex items-center gap-2 py-2 bg-primary text-white rounded-lg hover:bg-[#892be2a9] transition-all duration-300"
+                    className="px-4 flex  items-center gap-2 py-2 bg-primary text-white rounded-lg hover:bg-[#892be2a9] transition-all duration-300"
                   >
                     <GrGithub className="text-xl" /> Github
                   </a>

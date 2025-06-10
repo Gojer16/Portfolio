@@ -5,7 +5,7 @@ export const projects = [
     title: "Full-stack institutional website.",
     image: "./image1.jpeg",
     description: "A full-stack institutional website built with React, Node.js, and MySQL with security implementations.",
-    tech: ["React.js", "MySQL", "API"],
+    tech: ["React", "MySQL", "Express.js"],
     github: "https://github.com/Gojer16/PaginaEscuela",
   },
   {
@@ -16,10 +16,10 @@ export const projects = [
     github: "https://github.com/Gojer16/Live-Weather-Dashboard-with-Geolocation",
   },
   {
-    title: "Task Tracker API",
-    image: "./3.jpg",
-    description: "A Task Tracker API built Node.js, MongoDB, Express.js & Morgan.",
-    tech: ["Express.js", "MongoDB", "Morgan"],
-    github: "https://github.com/",
-  },
+    title: "Personal Portoflio",
+    image: '/portfo.png',
+    description: 'A resposiveness personal portfolio build with React, Framer Motion, CSS and TailwindCSS.',
+    tech: ["React", 'Framer Motion', "CSS"],
+    github: 'https://github.com/Gojer16/Portfolio'
+  }
 ];
