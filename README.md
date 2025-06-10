@@ -2,8 +2,6 @@
 
 Welcome to the source code of my **personal portfolio website**, designed to showcase my work, skills, and values as a **full-stack developer**. Built with a modern, responsive tech stack — React, TailwindCSS, and Framer Motion — this site is crafted to create a polished first impression while demonstrating real-world application of my frontend expertise.
 
-![Portfolio Screenshot](./public/portfo.png) 
-
 ---
 
 ## 🚀 Live Demo
