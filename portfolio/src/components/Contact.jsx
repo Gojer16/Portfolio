@@ -79,6 +79,13 @@ const Contact = () => {
                     </div>
                     <div className="col-span-2">
                         <form id='contactForm' onSubmit={handleSubmit}  noValidate className=" bg-white p-8 rounded-lg shadow-lg">
+                             <input 
+                            type="text" 
+                            name="_gotcha" 
+                            autoComplete="off" 
+                            tabIndex="-1" 
+                            style={{ display: 'none' }} 
+                            />
                             <h3 className="text-2xl font-bold mb-6 text-black">Send me a message</h3>
                             <div className="space-y-6">
                                 <div>
