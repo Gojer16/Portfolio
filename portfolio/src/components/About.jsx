@@ -80,9 +80,9 @@ const About = () => {
 
             {/* Stats */}
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm text-secondary">
-              <div>💻 Projects Built: <strong>5</strong></div>
-              <div>📖 Books Read This Year: <strong>14</strong></div>
-              <div>🚀 Commit Streak: <strong>120 days</strong></div>
+              <div>💻 Projects Built: <strong>16 Total (4 Completed)</strong></div>
+              <div>📖 Books Read This Year: <strong>16</strong></div>
+              <div>🚀 Commit Streak: <strong>33 days</strong></div>
               <div>🏋️‍♂️ Daily Habits: <strong>Reading, Coding, Chess</strong></div>
             </div>
           </div>
