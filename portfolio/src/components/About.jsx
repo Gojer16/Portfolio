@@ -24,7 +24,7 @@ const About = () => {
               About Me
             </h2>
             <p className="text-secondary text-xl mb-6">
-              I'm a Full-Stack Developer who builds like an underdog with
+              I'm a Software Engineer who builds like an underdog with
               something to prove. I specialize in clean, responsive, and
               scalable apps — built with care, tested with discipline, and
               deployed with intention.

@@ -49,7 +49,7 @@ const Contact = () => {
 
                             </div>
                             <h3 className="text-xl font-bold text-primary  mb-2">Location</h3>
-                            <p className="text-primary">Venezuela</p>
+                            <p className="text-primary">Remote</p>
 
                             
                         </div>

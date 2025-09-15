@@ -9,7 +9,7 @@ const terminalLines = [
   '> mission',
   '"Build efficient, secure, and scalable solutions that matter."',
   '> stack',
-  'JavaScript | Express | Python | FastAPI | React.js | MySQL | MongoDB | Redis | Docker ',
+  'JavaScript | Express.js | Python | FastAPI | React | MySQL | MongoDB | Next.js | TypeScript | Flask | Nest.js | Prisma | Supabase | Docker ',
   '> values',
   'Simplicity. Reliability. Curiosity. Impact. Growth.',
 ];

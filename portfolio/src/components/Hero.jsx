@@ -8,7 +8,7 @@ const Hero = () => {
     <>
         <section 
             className='min-h-screen px-4 py-12 flex flex-col justify-center'
-            aria-label="Introduction to Full-Stack Developer"
+            aria-label="Introduction to Software Engineer"
         >
           <div className='flex justify-center pb-6 md:pb-12 text-center'>
             <motion.div
@@ -19,7 +19,7 @@ const Hero = () => {
               aria-level="1"
             >
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight">
-              Full-Stack Developer <br />
+              Software Engineer <br />
               <span 
                 className="bg-gradient-to-r from-green-300 via-emerald-400 to-cyan-400 text-transparent bg-clip-text"
                 aria-label="From API to UI — Building Scalable Web Products"
